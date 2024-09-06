@@ -2,10 +2,12 @@ body {
     background-color: lightblue;
 }
 
+img {
+    width: 600px;
+    height: 350px;
+}
 #mainDiv {
-    margin: auto;
-    height: auto;
-    width: auto;
+    padding-top: 30px;
 }
 
 #titleDiv {
@@ -42,44 +44,62 @@ body {
 #secondMain {
     background-color:hwb(160 62% 0%);
     max-width: 60%;
-    height: auto;
+    min-height: 1000px;
     border: 3px solid black;
     margin: auto;
     padding-bottom: 20px;
 }
 
-#t1 {
+.t1 {
     text-align:center;
     font-size:40px;
     padding-top:10px;
     padding-bottom:10px; 
 }
 
-#imagediv1 {
+.imagediv {
     text-align:center;
 }
 
-#t2 {
-    font-size: 35px;
-    text-align:center;
-    padding-top: 10px;
-}
-
-#listDiv {
+.listDiv {
     margin:auto;
-    text-align:center;
+    font-size: 20px;
+    float:center;
+    max-width:650px;
+}
+
+#brazil {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+}
+
+#japan {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+}
+
+#puertorico {
+    padding-top: 40px;
+    padding-bottom: 15px;
 }
 
 .topnav {
     background-color: #333;
     overflow: hidden;
+    position: fixed;
+    top:0;
+    width:100%;
+    font-family:fantasy;
+    float:left;
 }
 
 .topnav a {
 float: left;
 color: #f2f2f2;
 text-align: center;
-padding: 8px 10px;
+padding: 10px 12px;
 text-decoration: none;
 font-size: 17px;
 }
@@ -90,6 +110,20 @@ color: black;
 }
 
 .topnav a.active {
-background-color: rgb(4, 99, 67);
+background-color: rgb(4, 146, 122);
 color: white;
+}
+
+footer {
+    background-color:#333;
+    overflow: hidden;
+    padding: 10px 12px;
+    text-align:center;
+    color:#f2f2f2;
+    padding-top: 10px;
+}
+
+.footerDiv {
+    padding: 10px;
+    width: auto;
 }
